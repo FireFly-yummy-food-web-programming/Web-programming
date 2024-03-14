@@ -32,11 +32,26 @@
         </a>
     </div>
 </div>
-<div class="header-navbarcontainer">
+<div class="header-navbarcontainer navbar navbar-expand-lg navbar-light">
     <div class="container-head">
         @include('clients.blocks.logo')
-        <div class="header-left d-flex flex-row gap-3">
-            
-        </div>
     </div>
+    <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active users-navbar-home" aria-current="page" href="{{route('home')}}">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active users-navbar-contactus" aria-current="page" href="{{route('contact')}}">Contact us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active users-navbar-contactus" aria-current="page" href="{{route('contact')}}">About us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active users-navbar-contactus" aria-current="page" href="{{route('contact')}}">Pages</a>
+            </li>
+          </ul>
+        </div>
+      </div>
 </div>
