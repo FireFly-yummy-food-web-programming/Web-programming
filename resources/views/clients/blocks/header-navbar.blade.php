@@ -35,6 +35,7 @@
 <div class="header-navbarcontainer navbar navbar-expand-lg navbar-light">
     <div class="container-head">
         @include('clients.blocks.logo')
+        {{createLogo("#AD343E", "#474747")}}
     </div>
     <div class="container-fluid">
         <div class="collapse navbar-collapse" id="navbarSupportedContent">

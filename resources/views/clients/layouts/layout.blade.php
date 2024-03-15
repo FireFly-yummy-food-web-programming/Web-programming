@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="{{asset('assets/css/bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/clients/style-header-navbar.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/css/clients/style-footer.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/logo.css')}}">
 
     @yield('css')
@@ -33,7 +34,7 @@
             </div>
         </div>
     </main>
-        {{-- @include('clients.blocks.footer') --}}
+        @include('clients.blocks.footer')
     {{-- <script src="{{asset('assets/admin/js/bootstrap.min.js')}}"></script> --}}
     {{-- <script src="{{asset('assets/clients/js/custom.js')}}"></script> --}}
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>

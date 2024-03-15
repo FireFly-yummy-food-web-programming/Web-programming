@@ -23,5 +23,4 @@
                 <h4 class='logo-title' style='color: $fill2;' >Yummy Food</h4>
             </div>";
         }
-    createLogo("#AD343E", "#474747");
 ?>
