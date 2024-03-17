@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummy Food Restaurant</title>
+    <link rel="stylesheet" href="{{ asset('assets/css/register.css') }}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  
+</head>
+
+<body>
+    <div class="container-fluid" id="container-fluid">
+        <div class="container-fluid pb-5" id="bg-1">
+            <div class="container-fluid bg-1 p-5" id="bg">
+                <h1>Register</h1
+            </div>
+        </div>
+        <div class="container-fluid bg-2 p-5 bg-white " id="bg-2">
+        </div>
+        <div class="container">
+        <form method="post" action="">
+            <div class="row d-flex justify-content-between pb-2">
+                <div class="col-md-6" style="padding: 0;width:48%">
+                    <label for="username" class="form-label custom-label" style="margin-left: 12px;">UserName</label>
+                    <input type="text" class="form-control rounded-pill" name="username" id="username" placeholder="Enter your username">
+                    <span class="text-danger"></span>
+                </div>
+                <div class="col-md-6" style="padding: 0;width:48%">
+                    <label for="password" class="form-label custom-label" style="margin-left: 12px;">Password</label>
+                    <input type="password" class="form-control rounded-pill" name="password" id="password" placeholder="Enter your password">
+                    <span class="text-danger"></span>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-between pb-2">
+                <div class="col-md-6" style="padding: 0;width:48%">
+                    <label for="name" class="form-label custom-label" style="margin-left: 12px;">Name</label>
+                    <input type="text" class="form-control rounded-pill" name="name" id="name" placeholder="Enter your name">
+                    <span class="text-danger"></span>
+                </div>
+                <div class="col-md-6" style="padding: 0;width:48%">
+                    <label for="phone" class="form-label custom-label" style="margin-left: 12px;">Phone</label>
+                    <input type="text" class="form-control rounded-pill" name="phone" id="phone" placeholder="x xxx xxx xxx">
+                    <span class="text-danger"></span>
+                </div>
+            </div>
+            <div class="row pb-2">
+                <label for="email" class="form-label custom-label" style="margin-left: 12px;">Email</label>
+                <input type="email" class="form-control rounded-pill" name="email" id="email" placeholder="Enter your email">
+                <span class="text-danger"></span>
+            </div>
+            <div class="row p-1"></div>
+            <div class="row d-flex flex-column align-items-center justify-content-center text-center">
+                <p class="">You have an account? <a href="/login">Login now</a></p>
+                <button type="button" class="button">Register</button>
+            </div>
+        </form>
+
+        </div>
+    </div>
+</body>
+
+</html>
